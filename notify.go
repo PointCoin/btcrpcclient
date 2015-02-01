@@ -13,10 +13,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/btcsuite/btcjson"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcwire"
-	"github.com/btcsuite/btcws"
+	"github.com/PointCoin/btcjson"
+	"github.com/PointCoin/btcutil"
+	"github.com/PointCoin/btcwire"
+	"github.com/PointCoin/btcws"
 )
 
 var (

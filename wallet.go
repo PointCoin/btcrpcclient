@@ -8,11 +8,11 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"github.com/btcsuite/btcjson"
-	"github.com/btcsuite/btcnet"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcwire"
-	"github.com/btcsuite/btcws"
+	"github.com/PointCoin/btcjson"
+	"github.com/PointCoin/btcnet"
+	"github.com/PointCoin/btcutil"
+	"github.com/PointCoin/btcwire"
+	"github.com/PointCoin/btcws"
 )
 
 // *****************************

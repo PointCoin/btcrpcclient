@@ -7,7 +7,7 @@ package main
 import (
 	"log"
 
-	"github.com/btcsuite/btcrpcclient"
+	"github.com/PointCoin/btcrpcclient"
 )
 
 func main() {
