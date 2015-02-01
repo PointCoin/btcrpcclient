@@ -1639,7 +1639,7 @@ func (r FutureGetBalanceParseResult) Receive() (btcutil.Amount, error) {
 //
 // See GetBalance for the blocking version and more details.
 func (c *Client) GetBalanceAsync(account string) FutureGetBalanceResult {
-	// TODO(davec): Remove this hack once btcwallet is fixed.
+	// TODO(davec): Remove this hack once wallet is fixed.
 	if account == "*" {
 		account = ""
 	}
@@ -1667,7 +1667,7 @@ func (c *Client) GetBalance(account string) (btcutil.Amount, error) {
 //
 // See GetBalanceMinConf for the blocking version and more details.
 func (c *Client) GetBalanceMinConfAsync(account string, minConfirms int) FutureGetBalanceResult {
-	// TODO(davec): Remove this hack once btcwallet is fixed.
+	// TODO(davec): Remove this hack once wallet is fixed.
 	if account == "*" {
 		account = ""
 	}
@@ -2490,12 +2490,12 @@ func (c *Client) GetInfo() (*btcjson.InfoResult, error) {
 }
 
 // TODO(davec): Implement
-// backupwallet (NYI in btcwallet)
-// encryptwallet (Won't be supported by btcwallet since it's always encrypted)
-// getwalletinfo (NYI in btcwallet or btcjson)
-// listaddressgroupings (NYI in btcwallet)
-// listreceivedbyaccount (NYI in btcwallet)
+// backupwallet (NYI in wallet)
+// encryptwallet (Won't be supported by wallet since it's always encrypted)
+// getwalletinfo (NYI in wallet or btcjson)
+// listaddressgroupings (NYI in wallet)
+// listreceivedbyaccount (NYI in wallet)
 
 // DUMP
-// importwallet (NYI in btcwallet)
-// dumpwallet (NYI in btcwallet)
+// importwallet (NYI in wallet)
+// dumpwallet (NYI in wallet)
