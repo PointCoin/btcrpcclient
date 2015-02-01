@@ -1,7 +1,7 @@
-btcwallet Websockets Example
+wallet Websockets Example
 ============================
 
-This example shows how to use the btcrpcclient package to connect to a btcwallet
+This example shows how to use the btcrpcclient package to connect to a wallet
 RPC server using TLS-secured websockets, register for notifications about
 changes to account balances, and get a list of unspent transaction outputs
 (utxos) the wallet can sign.
@@ -29,7 +29,7 @@ password for the RPC server:
 Finally, navigate to the example's directory and run it with:
 
 ```bash
-$ cd $GOPATH/src/github.com/btcsuite/btcrpcclient/examples/btcwalletwebsockets
+$ cd $GOPATH/src/github.com/btcsuite/btcrpcclient/examples/walletwebsockets
 $ go run *.go
 ```
 

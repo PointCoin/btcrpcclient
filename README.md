@@ -24,8 +24,8 @@ implement and the API is not stable yet.
   Connects to a btcd RPC server using TLS-secured websockets, registers for
   block connected and block disconnected notifications, and gets the current
   block count
-* [btcwallet Websockets Example](https://github.com/btcsuite/btcrpcclient/blob/master/examples/btcwalletwebsockets)  
-  Connects to a btcwallet RPC server using TLS-secured websockets, registers for
+* [wallet Websockets Example](https://github.com/btcsuite/btcrpcclient/blob/master/examples/walletwebsockets)  
+  Connects to a wallet RPC server using TLS-secured websockets, registers for
   notifications about changes to account balances, and gets a list of unspent
   transaction outputs (utxos) the wallet can sign
 * [Bitcoin Core HTTP POST Example](https://github.com/btcsuite/btcrpcclient/blob/master/examples/bitcoincorehttp)  
@@ -34,8 +34,8 @@ implement and the API is not stable yet.
 
 ## Major Features
 
-* Supports Websockets (btcd/btcwallet) and HTTP POST mode (bitcoin core)
-* Provides callback and registration functions for btcd/btcwallet notifications
+* Supports Websockets (btcd/wallet) and HTTP POST mode (bitcoin core)
+* Provides callback and registration functions for btcd/wallet notifications
 * Supports btcd extensions
 * Translates to and from higher-level and easier to use Go types
 * Offers a synchronous (blocking) and asynchronous API
